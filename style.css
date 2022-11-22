@@ -7,7 +7,11 @@
 section{
     height: 20vh;
     width: 20%;
-    background-color: palevioletred;
+    background-color: rgb(66, 62, 7);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 button{
