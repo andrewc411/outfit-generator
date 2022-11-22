@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 20vh;
+    width: 20%;
+    background-color: palevioletred;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color: palegreen;
+    color: black;
+    border: 2px solid paleturquoise;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
