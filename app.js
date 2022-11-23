@@ -7,11 +7,47 @@ const tshirt = [
     'img/jcoleisbetter.webp',
     'img/immortal.webp'
 ]
-// const longSleeve = []
-// const shorts = []
-// const pants = []
+longSleeve = [
+    'img/blackwhitestripe_long.jpg',
+    'img/croppedgreen_long.jpg',
+    'img/flannel1_long.jpg',
+    'img/flannel2_long.jpg',
+    'img/flannel3_long.jpg',
+    'img/flannel4_long.jpg',
+    'img/ghostlove_long.webp',
+    'img/nikecactus_long.jpg',
+    'img/patch_long.jpg',
+    'img/thasher_long.webp',
+    'img/womensoftblue_long.jpg',
+    'img/womenblack_long.jpg',
+    'img/womenwhite_long.jpg'
+]
+const shorts = [
+    'img/elasticCargo_shorts.jpg',
+    'img/floralbasketball_shorts.webp',
+    'img/harem_shorts.webp',
+    'img/jean_shorts.webp',
+    'img/leopardprint_shorts.jpg',
+    'img/menyoga_shorts.webp',
+    'img/nikeair_shorts.jpg',
+    'img/redbooty_shorts.webp',
+    'img/streetwear_shorts.jpg',
+    'img/womenmesh_shorts.webp',
+    'img/workout_shorts.webp'
+]
+const pants = [
+    'img/arthoedenim.jpg',
+    'img/bluehues_pants.jpg',
+    'img/cargo_joggers.jpg',
+    'img/cat_pants.jpg',
+    'img/contrastcargo_pants.jpg',
+    'img/corduroypatch_pants.jpg',
+    'img/women_joggers.webp',
+    'img/womenjean_pants.jpg',
+    'img/lululeggings.jpg'
+]
 // const dress = []
-// const skitt = []
+// const skirt = []
 // const sweatshirt = []
 // const hoodie = []
 // const jacket = []
