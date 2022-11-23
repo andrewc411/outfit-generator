@@ -46,11 +46,59 @@ const pants = [
     'img/womenjean_pants.jpg',
     'img/lululeggings.jpg'
 ]
-// const dress = []
-// const skirt = []
-// const sweatshirt = []
-// const hoodie = []
-// const jacket = []
+const dress = [
+    'img/blackflutter_dress.jpg',
+    'img/blueformfit_dress.jpg',
+    'img/blueoffshoulder_dress.jpg',
+    'img/drapedsatin_dress.jpg',
+    'img/floral_dress.jpg',
+    'img/floral1_dress.jpg',
+    'img/flora2_dress.jpg',
+    'img/frillhemknit_dress.jpg',
+    'img/knittedsweater_dress.jpg'
+]
+const skirt = [
+    'img/blackbuckle_skirt.jpg',
+    'img/bluefloral_skirt.jpg',
+    'img/corduroybutton_skirt.jpg',
+    'img/denim_skirt.jpg',
+    'img/floralslit_skirt.jpg',
+    'img/meshfloral_skirt.jpg',
+    'img/plaidpleated_skirt.jpg',
+    'img/splitfloral_skirt.jpg'
+]
+const sweatshirt = [
+    'img/DAMN_sweatshirt.avif',
+    'img/fleece_sweatshirt.jpg',
+    'img/gt_sweatshirt.avif',
+    'img/hardrock_sweatshirt.jpg',
+    'img/jcole_sweatshirt.avif',
+    'img/patch_sweatshirt.jpg',
+    'img/unwell_sweatshirt.jpg',
+    'img/bdayjesus_sweater.jpg'
+]
+const hoodie = [
+    'img/colorblock_hoodie.jpg',
+    'img/creepitreal_hoodie.avif',
+    'img/floraljapan_hoodie.jpg',
+    'img/itachi_hoodie.jpg',
+    'img/patch_hoodie.jpg',
+    'img/shroom_hoodie.jpg',
+    'img/streetwear_hoodie.jpg',
+    'img/thrasher_hoodie.jpg',
+    'img/tiedye_hoodie.jpg'
+]
+const jacket = [
+    'img/comfycozy_jacket.jpg',
+    'img/corduroy_jacket.jpg',
+    'img/denim_jacket.jpg',
+    'img/leather_jacket.jpg',
+    'img/nasa_jacket.jpg',
+    'img/nikevintage_jacket.jpg',
+    'img/streetwear_jacket.jpg',
+    'img/windbreaker_jacket.jpg',
+    'img/wool_jacket.jpg'
+]
 const socks = [
     'img/champion_sox.jpg',
     'img/idc_sox.jpg',
@@ -83,7 +131,16 @@ const hat = [
     'img/akatsuki_bucket.webp',
     'img/alienAbduction.webp'
 ]
-// const sunglasses = []
+const sunglasses = [
+    'img/dusty_sunglasses.jpg',
+    'img/giana_sunglasses.jpg',
+    'img/goldframe_sunglasses.jpg',
+    'img/pattinson_sunglasses.jpg',
+    'img/pink_sunglasses.jpg',
+    'img/pixel_sunglasses.jpg',
+    'img/prada_sunglasses.jpg',
+    'img/rayban_sunglasses.jpg'
+]
 const watch = [
     'img/applewatch.jpg',
     'img/blackgoldcasio.jpg',
