@@ -31,3 +31,7 @@ button{
     justify-content: center;
     align-items: center;
 }
+#images{
+    height: 200px;
+    width: 200px;
+}
