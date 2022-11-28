@@ -4,7 +4,19 @@
     box-sizing: border-box;
 }
 
-section {
+.header {
+    padding: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    background: lightslategray;
+    opacity: .7;
+    background-image: url(https://www.npd.com/wp-content/uploads/2021/05/fashion-banner-1440x480.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+}
+
+/* section {
     height: 20vh;
     width: 20%;
     background-color: rgb(66, 62, 7);
@@ -12,11 +24,13 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+} */
 
 button {
     height: 50px;
     width: 100px;
+    /* margin-left: 50px;
+    margin-bottom: 10px; */
     background-color: palegreen;
     color: black;
     border: 2px solid paleturquoise;
@@ -26,6 +40,17 @@ button {
     align-items: center;
 }
 
+#container {
+    /* height: 200px;
+    width: 240px; */
+    align-content: center; /* Can be changed in the live sample */
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
 .btn-img {
     display: flex;
     justify-content: center;
