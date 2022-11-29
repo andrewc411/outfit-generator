@@ -174,126 +174,256 @@ const watch = [
 
 const pic = document.querySelector('section');
 //Function randomly selects shirt picture and displays it
-function showShirt() {
+function findShirt() {
     document.getElementById("shirt-images").src = tshirt[Math.floor(Math.random() * tshirt.length)]
     var a = Math.floor(Math.random() * tshirt.length);
     console.log(a)
     var img = tshirt[a];
     console.log(img)
 }
+//Displays hidden img
+function showShirt() {
+    var x = document.getElementById("shirt-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    }
+    // } else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects longSleeve picture and displays it
-function showLong() {
+function findLong() {
     document.getElementById("long-images").src = longSleeve[Math.floor(Math.random() * longSleeve.length)]
     var a = Math.floor(Math.random() * longSleeve.length);
     console.log(a)
     var img = longSleeve[a];
     console.log(img)
 }
+
+//Displays hidden img
+function showLong() {
+    var x = document.getElementById("long-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    }
+//      else {
+//       x.style.display = "none";
+//     }
+  }
 //Function randomly selects shorts picture and displays it
-function showShorts() {
+function findShorts() {
     document.getElementById("shorts-images").src = shorts[Math.floor(Math.random() * shorts.length)]
     var a = Math.floor(Math.random() * shorts.length);
     console.log(a)
     var img = shorts[a];
     console.log(img)
 }
+
+//Displays hidden img
+function showShorts() {
+    var x = document.getElementById("shorts-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects pants picture and displays it
-function showPants() {
+function findPants() {
     document.getElementById("pants-images").src = pants[Math.floor(Math.random() * pants.length)]
     var a = Math.floor(Math.random() * pants.length);
     console.log(a)
     var img = pants[a];
     console.log(img)
 }
+//Displays hidden img
+function showPants() {
+    var x = document.getElementById("pants-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects dress picture and displays it
-function showDress() {
+function findDress() {
     document.getElementById("dress-images").src = dress[Math.floor(Math.random() * dress.length)]
     var a = Math.floor(Math.random() * dress.length);
     console.log(a)
     var img = dress[a];
     console.log(img)
 }
+//Displays hidden img
+function showDress() {
+    var x = document.getElementById("dress-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects skirt picture and displays it
-function showSkirt() {
+function findSkirt() {
     document.getElementById("skirt-images").src = skirt[Math.floor(Math.random() * skirt.length)]
     var a = Math.floor(Math.random() * skirt.length);
     console.log(a)
     var img = skirt[a];
     console.log(img)
 }
+//Displays hidden img
+function showSkirt() {
+    var x = document.getElementById("skirt-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects sweaters picture and displays it
-function showSweater() {
+function findSweater() {
     document.getElementById("sweatshirt-images").src = sweatshirt[Math.floor(Math.random() * sweatshirt.length)]
     var a = Math.floor(Math.random() * sweatshirt.length);
     console.log(a)
     var img = sweatshirt[a];
     console.log(img)
 }
+//Displays hidden img
+function showSweater() {
+    var x = document.getElementById("sweatshirt-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects hoodie picture and displays it
-function showHoodie() {
+function findHoodie() {
     document.getElementById("hoodie-images").src = hoodie[Math.floor(Math.random() * hoodie.length)]
     var a = Math.floor(Math.random() * hoodie.length);
     console.log(a)
     var img = hoodie[a];
     console.log(img)
 }
+//Displays hidden img
+function showHoodie() {
+    var x = document.getElementById("hoodie-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects jacket picture and displays it
-function showJackie() {
+function findJackie() {
     document.getElementById("jacket-images").src = jacket[Math.floor(Math.random() * jacket.length)]
     var a = Math.floor(Math.random() * jacket.length);
     console.log(a)
     var img = jacket[a];
     console.log(img)
 }
+//Displays hidden img
+function showJackie() {
+    var x = document.getElementById("jacket-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects socks picture and displays it
-function showSox() {
+function findSox() {
     document.getElementById("socks-images").src = socks[Math.floor(Math.random() * socks.length)]
     var a = Math.floor(Math.random() * socks.length);
     console.log(a)
     var img = socks[a];
     console.log(img)
 }
+//Displays hidden img
+function showSox() {
+    var x = document.getElementById("socks-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects shoes picture and displays it
-function showKicks() {
+function findKicks() {
     document.getElementById("shoes-images").src = shoes[Math.floor(Math.random() * shoes.length)]
     var a = Math.floor(Math.random() * shoes.length);
     console.log(a)
     var img = shoes[a];
     console.log(img)
 }
+//Displays hidden img
+function showKicks() {
+    var x = document.getElementById("shoes-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects hat picture and displays it
-function showCap() {
+function findCap() {
     document.getElementById("hat-images").src = hat[Math.floor(Math.random() * hat.length)]
     var a = Math.floor(Math.random() * hat.length);
     console.log(a)
     var img = hat[a];
     console.log(img)
 }
+//Displays hidden img
+function showCap() {
+    var x = document.getElementById("hat-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects sunglasses picture and displays it
-function showShades() {
+function findShades() {
     document.getElementById("sunglasses-images").src = sunglasses[Math.floor(Math.random() * sunglasses.length)]
     var a = Math.floor(Math.random() * sunglasses.length);
     console.log(a)
     var img = sunglasses[a];
     console.log(img)
 }
+//Displays hidden img
+function showShades() {
+    var x = document.getElementById("sunglasses-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
 //Function randomly selects jacket picture and displays it
-function showJacket() {
-    document.getElementById("jacket-images").src = jacket[Math.floor(Math.random() * jacket.length)]
-    var a = Math.floor(Math.random() * jacket.length);
-    console.log(a)
-    var img = jacket[a];
-    console.log(img)
-}
-//Function randomly selects jacket picture and displays it
-function showWatch() {
+function findWatch() {
     document.getElementById("watch-images").src = watch[Math.floor(Math.random() * watch.length)]
     var a = Math.floor(Math.random() * watch.length);
     console.log(a)
     var img = watch[a];
     console.log(img)
 }
-// //Button click animation
-// $('btn').on('click', function() {
-//     $(this).toggleClass('clicked');
-// });
+//Displays hidden img
+function showWatch() {
+    var x = document.getElementById("watch-images");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } 
+    // else {
+    //   x.style.display = "none";
+    // }
+  }
