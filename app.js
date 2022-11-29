@@ -293,3 +293,7 @@ function showWatch() {
     var img = watch[a];
     console.log(img)
 }
+// //Button click animation
+// $('btn').on('click', function() {
+//     $(this).toggleClass('clicked');
+// });

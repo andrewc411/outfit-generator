@@ -8,12 +8,17 @@
     padding: 70px;
     margin-bottom: 40px;
     text-align: center;
-    background: lightslategray;
-    opacity: .7;
+    opacity: .8;
     background-image: url(https://www.npd.com/wp-content/uploads/2021/05/fashion-banner-1440x480.jpg);
     background-size: cover;
     color: white;
     font-size: 30px;
+    transition: .8s;
+}
+
+.header:hover{
+    opacity: 1;
+    transition: .8s;
 }
 
 /* section {
@@ -29,23 +34,45 @@
 button {
     height: 50px;
     width: 100px;
-    /* margin-left: 50px;
-    margin-bottom: 10px; */
-    background-color: palegreen;
+    margin: 20px;
+    background-image: linear-gradient(white, grey);
     color: black;
-    border: 2px solid paleturquoise;
-    border-radius: 4px;
+    border: 2px solid grey;
+    border-radius: 5px;
     cursor: pointer;
     display: flex;
     align-items: center;
 }
 
+.btn:active{
+    background-image: linear-gradient(grey, white);
+    border: 2.5px solid gray;
+    /* transition: .5s; */
+}
+
 #container {
-    /* height: 200px;
-    width: 240px; */
+    height: auto;
+    width: auto;
+    background-image: radial-gradient(silver, rgb(247, 247, 247));
     align-content: center; /* Can be changed in the live sample */
   }
-  
+
+  img{
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    opacity: .8;
+    transition: .5s;
+  }
+
+  img:hover {
+    opacity: 1;
+    transition: .5s;
+    box-shadow: 5px 5px 5px grey;
+  }
+
   .flex {
     display: flex;
     flex-wrap: wrap;
@@ -55,74 +82,4 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#shirt-images {
-    height: 200px;
-    width: 200px;
-}
-
-#long-images {
-    height: 200px;
-    width: 200px;
-}
-
-#shorts-images {
-    height: 200px;
-    width: 200px;
-}
-
-#pants-images {
-    height: 200px;
-    width: 200px;
-}
-
-#dress-images {
-    height: 200px;
-    width: 200px;
-}
-
-#skirt-images {
-    height: 200px;
-    width: 200px;
-}
-
-#sweatshirt-images {
-    height: 200px;
-    width: 200px;
-}
-
-#hoodie-images {
-    height: 200px;
-    width: 200px;
-}
-
-#jacket-images {
-    height: 200px;
-    width: 200px;
-}
-
-#socks-images {
-    height: 200px;
-    width: 200px;
-}
-
-#shoes-images {
-    height: 200px;
-    width: 200px;
-}
-
-#hat-images {
-    height: 200px;
-    width: 200px;
-}
-
-#sunglasses-images {
-    height: 200px;
-    width: 200px;
-}
-
-#watch-images {
-    height: 200px;
-    width: 200px;
 }
