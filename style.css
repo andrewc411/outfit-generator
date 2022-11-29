@@ -20,6 +20,14 @@
     transition: .8s;
 }
 
+body {
+    background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper13.jpg);
+    /* background-size: cover; */
+}
+p{
+    margin-top: 20px;
+}
+
 /* section {
     height: 20vh;
     width: 20%;
@@ -93,4 +101,19 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    background-image: linear-gradient(grey, white);
+    color: white;
+    text-decoration: solid;
+    padding: 70px;
+    margin-top: 50px;
+    opacity: .01;
+    transition: 3s;
+}
+
+footer:hover{
+    transition: 3s;
+    opacity: 1;
 }
