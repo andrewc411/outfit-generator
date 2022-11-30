@@ -7,6 +7,7 @@
 .header {
     padding: 70px;
     margin-bottom: 40px;
+    border: 2.5px solid beige;
     text-align: center;
     background-image: url(https://www.npd.com/wp-content/uploads/2021/05/fashion-banner-1440x480.jpg);
     background-size: cover;
@@ -21,7 +22,8 @@
 }
 
 body {
-    background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper13.jpg);
+    background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    border: 1px solid transparent;
     /* background-size: cover; */
 }
 p{
@@ -69,11 +71,22 @@ button {
 }
 
 #container {
-    height: auto;
-    width: auto;
+    margin: auto;
+    /* margin-bottom: 20%; */
+    position: relative;
+    /* min-height: 100vh; */
+    width: 100%;
+	max-width: 1000px;
+    /* padding-bottom: 2.5rem; */
+    /* border: 2.5px solid linear-gradient(to right, #d7d2cc 0%, #304352 100%); */
+    border-radius: 10px;
     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/625/796/original/dark-blue-storm-clouds-free-video.jpg);
     background-size: cover;
     align-content: center; /* Can be changed in the live sample */
+  }
+
+  #block{
+      margin-bottom: 20%;
   }
 
   img{
@@ -104,11 +117,16 @@ button {
 }
 
 footer{
-    background-image: linear-gradient(grey, white);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    border: 2.5px solid beige;
+    background-image: linear-gradient(#04619F,#000000);
+    background-size: cover;
     color: white;
-    text-decoration: solid;
+    font-size: 18px;
     padding: 70px;
-    margin-top: 50px;
     opacity: .01;
     transition: 3s;
 }
