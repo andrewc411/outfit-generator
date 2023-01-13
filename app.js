@@ -427,3 +427,13 @@ function showWatch() {
     //   x.style.display = "none";
     // }
   }
+//Clears the img display
+function clearImages(){
+  var imgEl = document.getElementsByClassName("img");
+
+  Array.from(imgEl).forEach((x) => {
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    }
+  })
+}
