@@ -149,7 +149,7 @@ button {
     align-items: center;
 }
 
-footer{
+/* footer{
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -167,4 +167,4 @@ footer{
 footer:hover{
     transition: 3s;
     opacity: 1;
-}
+} */
